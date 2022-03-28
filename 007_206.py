@@ -34,5 +34,5 @@ class Solution:
             cur = temp
         return link2list(pre)
 
-s1 = Solution()
-print(s1.reverseList([1, 2, 3, 4, 5]))
+s = Solution()
+print(s.reverseList([1, 2, 3, 4, 5]))
