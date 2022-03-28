@@ -12,7 +12,6 @@ class Solution:
                 return middle
         return -1
 
-s1 = Solution()
-print(s1.search([-1,0,3,5,9,12], 9))
-s2 = Solution()
-print(s2.search([-1,0,3,5,9,12], 2))
+s = Solution()
+print(s.search([-1,0,3,5,9,12], 9))
+print(s.search([-1,0,3,5,9,12], 2))
