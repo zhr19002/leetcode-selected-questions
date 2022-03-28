@@ -32,5 +32,5 @@ class Solution:
         
         return matrix
 
-s1 = Solution()
-print(s1.generateMatrix(4))
+s = Solution()
+print(s.generateMatrix(4))
