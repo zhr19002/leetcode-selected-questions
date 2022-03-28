@@ -1,5 +1,3 @@
-from collections import deque
-
 class TreeNode:
     def __init__(self, val):
         self.val = val
