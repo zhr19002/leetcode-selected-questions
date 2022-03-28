@@ -34,9 +34,7 @@ class Solution:
                 cur = cur.next
         return link2list(dummy_head.next)
 
-s1 = Solution()
-print(s1.removeElements([1, 2, 6, 3, 4, 5, 6], 6))
-s2 = Solution()
-print(s2.removeElements([], 1))
-s3 = Solution()
-print(s3.removeElements([7,7,7,7], 7))
+s = Solution()
+print(s.removeElements([1, 2, 6, 3, 4, 5, 6], 6))
+print(s.removeElements([], 1))
+print(s.removeElements([7,7,7,7], 7))
