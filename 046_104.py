@@ -17,21 +17,19 @@ def list2tree(lst):
 class Solution:
     def maxDepth(self, lst):
         root = list2tree(lst)
-        results = []
         if root == None:
-            return results
+            return 0
+        depth = 0
         queue = deque([root])
         while queue:
-            result = []
+            depth += 1
             for i in range(len(queue)):
                 cur = queue.popleft()
-                result.append(cur.val)
                 if cur.left:
                     queue.append(cur.left)
                 if cur.right:
                     queue.append(cur.right)
-            results.append(result)
-        return len(results)
+        return depth
 
 s = Solution()
 print(s.maxDepth([3,9,20,None,None,15,7]))
