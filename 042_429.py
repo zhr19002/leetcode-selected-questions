@@ -14,6 +14,10 @@ def list2tree(lst):
     if lst[3] != None: root.right = TreeNode(lst[3])
     if lst[4] != None: root.left.left = TreeNode(lst[4])
     if lst[5] != None: root.left.right = TreeNode(lst[5])
+    if lst[6] != None: root.middle.left = TreeNode(lst[6])
+    if lst[7] != None: root.middle.right = TreeNode(lst[7])
+    if lst[8] != None: root.right.left = TreeNode(lst[8])
+    if lst[9] != None: root.right.right = TreeNode(lst[9])    
     return root
 
 class Solution:
@@ -38,4 +42,4 @@ class Solution:
         return results
 
 s = Solution()
-print(s.levelOrder([1,3,2,4,5,6]))
+print(s.levelOrder([1,3,2,4,5,6,None,None,None,None]))
