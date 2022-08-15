@@ -12,6 +12,7 @@ class Solution:
                 return middle
         return -1
 
-s = Solution()
-print(s.search([-1,0,3,5,9,12], 9))
-print(s.search([-1,0,3,5,9,12], 2))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.search([-1,0,3,5,9,12], 9))
+    print(s.search([-1,0,3,5,9,12], 2))
