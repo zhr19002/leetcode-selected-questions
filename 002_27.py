@@ -9,6 +9,7 @@ class Solution:
             fast += 1
         return slow
 
-s = Solution()
-print(s.removeElement([3,2,2,3], 3))
-print(s.removeElement([0,1,2,2,3,0,4,2], 2))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.removeElement([3,2,2,3], 3))
+    print(s.removeElement([0,1,2,2,3,0,4,2], 2))
