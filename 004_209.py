@@ -11,5 +11,6 @@ class Solution:
                 index += 1
         return 0 if res==float('inf') else res
 
-s = Solution()
-print(s.minSubArrayLen(7,[2,3,1,2,4,3]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.minSubArrayLen(7, [2,3,1,2,4,3]))
