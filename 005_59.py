@@ -32,5 +32,6 @@ class Solution:
         
         return matrix
 
-s = Solution()
-print(s.generateMatrix(4))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.generateMatrix(4))
