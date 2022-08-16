@@ -17,6 +17,7 @@ class Solution:
             k -= 1
         return ans
 
-s = Solution()
-print(s.sortedSquares([-4,-1,0,3,10]))
-print(s.sortedSquares([-7,-3,2,3,11]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.sortedSquares([-4,-1,0,3,10]))
+    print(s.sortedSquares([-7,-3,2,3,11]))
