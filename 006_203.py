@@ -34,7 +34,8 @@ class Solution:
                 cur = cur.next
         return link2list(dummy_head.next)
 
-s = Solution()
-print(s.removeElements([1, 2, 6, 3, 4, 5, 6], 6))
-print(s.removeElements([], 1))
-print(s.removeElements([7,7,7,7], 7))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.removeElements([1, 2, 6, 3, 4, 5, 6], 6))
+    print(s.removeElements([], 1))
+    print(s.removeElements([7,7,7,7], 7))
