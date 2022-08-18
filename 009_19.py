@@ -40,7 +40,8 @@ class Solution:
 
         return link2list(dummy_head.next)
 
-s = Solution()
-print(s.removeNthFromEnd([1, 2, 3, 4, 5], 2))
-print(s.removeNthFromEnd([1], 1))
-print(s.removeNthFromEnd([1, 2], 1))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.removeNthFromEnd([1, 2, 3, 4, 5], 2))
+    print(s.removeNthFromEnd([1], 1))
+    print(s.removeNthFromEnd([1, 2], 1))
