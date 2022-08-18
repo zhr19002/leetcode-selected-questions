@@ -37,7 +37,8 @@ class Solution:
             pre = pre.next.next
         return link2list(dummy_head.next)
 
-s = Solution()
-print(s.swapPairs([1, 2, 3, 4]))
-print(s.swapPairs([]))
-print(s.swapPairs([1]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.swapPairs([1, 2, 3, 4]))
+    print(s.swapPairs([]))
+    print(s.swapPairs([1]))
