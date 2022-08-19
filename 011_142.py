@@ -29,6 +29,7 @@ class Solution:
                 return head.val
         return None
 
-s = Solution()
-print(s.detectCycle([3, 2, 0, -4], 1))
-print(s.detectCycle([1, 2], 0))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.detectCycle([3, 2, 0, -4], 1))
+    print(s.detectCycle([1, 2], 0))
