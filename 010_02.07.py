@@ -44,7 +44,8 @@ class Solution:
                 return None
         return fast.val
 
-s = Solution()
-print(s.getIntersectionNode([4, 1, 8, 4, 5], [5, 0, 1, 8, 4, 5]))
-print(s.getIntersectionNode([0, 9, 1, 2, 4], [3, 2, 4]))
-print(s.getIntersectionNode([2, 6, 4], [1, 5]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.getIntersectionNode([4, 1, 8, 4, 5], [5, 0, 1, 8, 4, 5]))
+    print(s.getIntersectionNode([0, 9, 1, 2, 4], [3, 2, 4]))
+    print(s.getIntersectionNode([2, 6, 4], [1, 5]))
