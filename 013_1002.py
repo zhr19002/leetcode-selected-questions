@@ -22,6 +22,7 @@ class Solution:
                 record[i] -= 1
         return result
 
-s = Solution()
-print(s.commonChars(["bella","label","roller"]))
-print(s.commonChars(["cool","lock","cook"]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.commonChars(["bella","label","roller"]))
+    print(s.commonChars(["cool","lock","cook"]))
