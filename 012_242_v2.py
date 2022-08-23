@@ -12,6 +12,7 @@ class Solution:
         else:
             return False
 
-s = Solution()
-print(s.isAnagram('anagram', 'nagaram'))
-print(s.isAnagram('rat', 'car'))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.isAnagram('anagram', 'nagaram'))
+    print(s.isAnagram('rat', 'car'))
