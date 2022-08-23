@@ -11,6 +11,7 @@ class Solution:
                 break
         return True
 
-s = Solution()
-print(s.isAnagram('anagram', 'nagaram'))
-print(s.isAnagram('rat', 'car'))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.isAnagram('anagram', 'nagaram'))
+    print(s.isAnagram('rat', 'car'))
