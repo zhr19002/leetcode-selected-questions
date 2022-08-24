@@ -10,7 +10,8 @@ class Solution:
                 return False
         return True
 
-s = Solution()
-print(s.canConstruct('a', 'b'))
-print(s.canConstruct('aa', 'ab'))
-print(s.canConstruct('aa', 'aab'))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.canConstruct('a', 'b'))
+    print(s.canConstruct('aa', 'ab'))
+    print(s.canConstruct('aa', 'aab'))
