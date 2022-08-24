@@ -13,5 +13,6 @@ class Solution:
                     count += record[key]
         return count
 
-s = Solution()
-print(s.fourSumCount([1,2], [-2,-1], [-1,2], [0,2]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.fourSumCount([1,2], [-2,-1], [-1,2], [0,2]))
