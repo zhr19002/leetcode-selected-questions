@@ -15,5 +15,6 @@ class Solution:
                             ans.add(tuple(sorted([nums[i], nums[j], nums[k], val])))
         return ans
 
-s = Solution()
-print(s.fourSum([1, 0, -1, 0, -2, 2], 0))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.fourSum([1, 0, -1, 0, -2, 2], 0))
