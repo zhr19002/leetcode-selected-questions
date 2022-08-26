@@ -27,5 +27,6 @@ class Solution:
                         q -= 1
         return ans
 
-s = Solution()
-print(s.fourSum([1, 0, -1, 0, -2, 2], 0))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.fourSum([1, 0, -1, 0, -2, 2], 0))
