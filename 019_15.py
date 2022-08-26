@@ -26,7 +26,8 @@ class Solution:
                     right -= 1
         return ans
 
-s = Solution()
-print(s.threeSum([-1, 0, 1, 2, -1, -4]))
-print(s.threeSum([0, 0, 0, 0]))
-print(s.threeSum([-4, -3, -2, -1, 0, 1, 2, 3, 4]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.threeSum([-1, 0, 1, 2, -1, -4]))
+    print(s.threeSum([0, 0, 0, 0]))
+    print(s.threeSum([-4, -3, -2, -1, 0, 1, 2, 3, 4]))
