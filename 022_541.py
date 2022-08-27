@@ -7,5 +7,6 @@ class Solution:
             p = p + 2*k
         return s
 
-s = Solution()
-print(s.reverseStr('abcdefg', 2))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.reverseStr('abcdefg', 2))
