@@ -10,6 +10,7 @@ class Solution:
             right -= 1
         return s
 
-s = Solution()
-print(s.reverseString(['h','e','l','l','o']))
-print(s.reverseString(['H','a','n','n','a','h']))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.reverseString(['h','e','l','l','o']))
+    print(s.reverseString(['H','a','n','n','a','h']))
