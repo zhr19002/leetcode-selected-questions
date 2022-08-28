@@ -18,5 +18,6 @@ class Solution:
             
         return ''.join(res)
 
-s = Solution()
-print(s.replaceSpace('We are happy.'))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.replaceSpace('We are happy.'))
