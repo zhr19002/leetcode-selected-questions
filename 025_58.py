@@ -6,6 +6,7 @@ class Solution:
         s.reverse()
         return ''.join(s)
 
-s = Solution()
-print(s.reverseLeftWords('abcdefg', 2))
-print(s.reverseLeftWords('lrloseumgh', 6))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.reverseLeftWords('abcdefg', 2))
+    print(s.reverseLeftWords('lrloseumgh', 6))
