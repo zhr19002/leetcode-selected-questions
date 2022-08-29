@@ -28,7 +28,8 @@ class Solution:
         
         return s[:slow] + s[slow:][::-1]
 
-s = Solution()
-print(s.reverseWords('the sky is blue'))
-print(s.reverseWords(' hello world!'))
-print(s.reverseWords('a good  example'))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.reverseWords('the sky is blue'))
+    print(s.reverseWords(' hello world!'))
+    print(s.reverseWords('a good  example'))
