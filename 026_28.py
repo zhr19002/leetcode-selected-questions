@@ -29,8 +29,9 @@ class Solution:
             return i-j
         else:
             return -1
-        
-s = Solution()
-print(s.strStr('hello', 'll'))
-print(s.strStr('aaaaa', 'bba'))
-print(s.strStr('aabaacaabaaf', 'aabaaf'))
+
+if __name__ == '__main__':
+    s = Solution()
+    print(s.strStr('hello', 'll'))
+    print(s.strStr('aaaaa', 'bba'))
+    print(s.strStr('aabaacaabaaf', 'aabaaf'))
