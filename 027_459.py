@@ -18,8 +18,9 @@ class Solution:
         if nxt[-1] != 0 and len(s) % (len(s) - (nxt[-1])) == 0: 
             return True
         return False
-        
-s = Solution()
-print(s.repeatedSubstringPattern('abab'))
-print(s.repeatedSubstringPattern('aba'))
-print(s.repeatedSubstringPattern('abcabcabcabc'))
+
+if __name__ == '__main__':
+    s = Solution()
+    print(s.repeatedSubstringPattern('abab'))
+    print(s.repeatedSubstringPattern('aba'))
+    print(s.repeatedSubstringPattern('abcabcabcabc'))
