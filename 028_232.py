@@ -27,9 +27,10 @@ class MyQueue:
         else:
             return True
 
-queue = MyQueue()
-queue.push(1)
-queue.push(2)
-print(queue.peek())
-print(queue.pop())
-print(queue.empty())
+if __name__ == '__main__':
+    queue = MyQueue()
+    queue.push(1)
+    queue.push(2)
+    print(queue.peek())
+    print(queue.pop())
+    print(queue.empty())
