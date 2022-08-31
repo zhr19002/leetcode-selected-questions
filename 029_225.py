@@ -29,13 +29,14 @@ class MyStack:
         else:
             return True
 
-stack = MyStack()
-stack.push(1)
-stack.push(2)
-print(stack.pop())
-stack.push(3)
-stack.push(4)
-print(stack.pop())
-print(stack.pop())
-print(stack.pop())
-print(stack.empty())
+if __name__ == '__main__':
+    stack = MyStack()
+    stack.push(1)
+    stack.push(2)
+    print(stack.pop())
+    stack.push(3)
+    stack.push(4)
+    print(stack.pop())
+    print(stack.pop())
+    print(stack.pop())
+    print(stack.empty())
