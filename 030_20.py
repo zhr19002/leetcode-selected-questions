@@ -13,10 +13,11 @@ class Solution:
             else:
                 stack.pop()
         return True if not stack else False
-    
-s = Solution()
-print(s.isValid('()'))
-print(s.isValid('()[]{}'))
-print(s.isValid('(]'))
-print(s.isValid('([)]'))
-print(s.isValid('{[]}'))
+
+if __name__ == '__main__':
+    s = Solution()
+    print(s.isValid('()'))
+    print(s.isValid('()[]{}'))
+    print(s.isValid('(]'))
+    print(s.isValid('([)]'))
+    print(s.isValid('{[]}'))
