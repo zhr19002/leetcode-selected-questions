@@ -7,6 +7,7 @@ class Solution:
             else:
                 stack.append(item)
         return ''.join(stack)
-    
-s = Solution()
-print(s.removeDuplicates('abbaca'))
+
+if __name__ == '__main__':
+    s = Solution()
+    print(s.removeDuplicates('abbaca'))
