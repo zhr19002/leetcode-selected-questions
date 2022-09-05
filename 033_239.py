@@ -27,5 +27,6 @@ class Solution:
             result.append(queue.front())
         return result
 
-s = Solution()
-print(s.maxSlidingWindow([1,3,-1,-3,5,3,6,7], 3))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.maxSlidingWindow([1,3,-1,-3,5,3,6,7], 3))
