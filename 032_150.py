@@ -9,8 +9,9 @@ class Solution:
                 second_num = stack.pop()
                 stack.append(int(eval(f'{second_num}{item}{first_num}')))
         return int(stack.pop())
-    
-s = Solution()
-print(s.evalRPN(['2','1','+','3','*']))
-print(s.evalRPN(['4','13','5','/','+']))
-print(s.evalRPN(['10','6','9','3','+','-11','*','/','*','17','+','5','+']))
+
+if __name__ == '__main__':
+    s = Solution()
+    print(s.evalRPN(['2','1','+','3','*']))
+    print(s.evalRPN(['4','13','5','/','+']))
+    print(s.evalRPN(['10','6','9','3','+','-11','*','/','*','17','+','5','+']))
