@@ -18,7 +18,8 @@ class Solution:
         
         return result
 
-s = Solution()
-print(s.topKFrequent([1,1,1,2,2,3], 2))
-print(s.topKFrequent([1], 1))
-print(s.topKFrequent(['a','a','a','a','b','b','b','c','c','d'], 3))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.topKFrequent([1,1,1,2,2,3], 2))
+    print(s.topKFrequent([1], 1))
+    print(s.topKFrequent(['a','a','a','a','b','b','b','c','c','d'], 3))
