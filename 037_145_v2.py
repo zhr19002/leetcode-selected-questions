@@ -32,5 +32,6 @@ class Solution:
 
         return result[::-1]
 
-s = Solution()
-print(s.postorderTraversal([5,4,6,1,2,7,8]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.postorderTraversal([5,4,6,1,2,7,8]))
