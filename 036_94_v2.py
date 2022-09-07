@@ -34,5 +34,6 @@ class Solution:
 
         return result
 
-s = Solution()
-print(s.inorderTraversal([5,4,6,1,2,7,8]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.inorderTraversal([5,4,6,1,2,7,8]))
