@@ -35,5 +35,6 @@ class Solution:
                 result.append(node.val)
         return result
 
-s = Solution()
-print(s.preorderTraversal([5,4,6,1,2,7,8]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.preorderTraversal([5,4,6,1,2,7,8]))
