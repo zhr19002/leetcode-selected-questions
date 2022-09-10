@@ -31,5 +31,6 @@ class Solution:
         helper(root, 0)
         return result
 
-s = Solution()
-print(s.levelOrder([3,9,20,None,None,15,7]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.levelOrder([3,9,20,None,None,15,7]))
