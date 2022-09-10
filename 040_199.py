@@ -34,5 +34,6 @@ class Solution:
                     queue.append(cur.right)
         return result
 
-s = Solution()
-print(s.rightSideView([1,2,3,None,5,None,4]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.rightSideView([1,2,3,None,5,None,4]))
