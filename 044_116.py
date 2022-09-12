@@ -39,5 +39,6 @@ class Solution:
                 cur.nxt = queue[0]
         return result
 
-s = Solution()
-print(s.connect([1,2,3,4,5,6,7]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.connect([1,2,3,4,5,6,7]))
