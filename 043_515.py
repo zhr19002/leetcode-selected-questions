@@ -35,5 +35,6 @@ class Solution:
             results.append(max(result))
         return results
 
-s = Solution()
-print(s.largestValues([1,3,2,5,3,None,9]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.largestValues([1,3,2,5,3,None,9]))
