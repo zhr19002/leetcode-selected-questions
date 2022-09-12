@@ -42,7 +42,8 @@ class Solution:
                     result.append(None)
         return result
 
-s = Solution()
-print(s.connectII([1,2,3,4,5,6,7]))
-print(s.connectII([3,9,20,None,None,15,7]))
-print(s.connectII([3,9,20,15,7,None,None]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.connectII([1,2,3,4,5,6,7]))
+    print(s.connectII([3,9,20,None,None,15,7]))
+    print(s.connectII([3,9,20,15,7,None,None]))
