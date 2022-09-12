@@ -41,5 +41,6 @@ class Solution:
             results.append(result)
         return results
 
-s = Solution()
-print(s.levelOrder([1,3,2,4,5,6,None,None,None,None]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.levelOrder([1,3,2,4,5,6,None,None,None,None]))
