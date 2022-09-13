@@ -33,5 +33,6 @@ class Solution:
                     queue.append(cur.right)
         return depth
 
-s = Solution()
-print(s.maxDepth([3,9,20,None,None,15,7]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.maxDepth([3,9,20,None,None,15,7]))
