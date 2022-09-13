@@ -35,5 +35,6 @@ class Solution:
             depth += 1
         return depth
 
-s = Solution()
-print(s.minDepth([3,9,20,None,None,15,7]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.minDepth([3,9,20,None,None,15,7]))
