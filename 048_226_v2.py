@@ -35,5 +35,6 @@ class Solution:
 
         return result
 
-s = Solution()
-print(s.invertTree([4,2,7,1,3,6,9]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.invertTree([4,2,7,1,3,6,9]))
