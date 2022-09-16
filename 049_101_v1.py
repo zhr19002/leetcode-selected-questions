@@ -35,6 +35,7 @@ class Solution:
         isSame = outside and inside
         return isSame
 
-s = Solution()
-print(s.isSymmetric([1,2,2,3,4,4,3]))
-print(s.isSymmetric([1,2,2,None,3,None,3]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.isSymmetric([1,2,2,3,4,4,3]))
+    print(s.isSymmetric([1,2,2,None,3,None,3]))
