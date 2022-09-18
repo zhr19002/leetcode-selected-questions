@@ -36,7 +36,8 @@ class Solution:
                     queue.append(cur.right)
         return result
 
-s = Solution()
-print(s.countNodes([1,2,3,4,5,6,None]))
-print(s.countNodes([]))
-print(s.countNodes([1,None,None,None,None,None,None]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.countNodes([1,2,3,4,5,6,None]))
+    print(s.countNodes([]))
+    print(s.countNodes([1,None,None,None,None,None,None]))
