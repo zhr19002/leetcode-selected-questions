@@ -44,6 +44,7 @@ class Solution:
         else:
             return 1 + max(left_height, right_height)
 
-s = Solution()
-print(s.isBalanced([3,9,20,None,None,15,7,None,None,None,None,None,None,None,None]))
-print(s.isBalanced([1,2,2,3,3,None,None,4,4,None,None,None,None,None,None]))
+if __name__ == '__main__':
+    s = Solution()
+    print(s.isBalanced([3,9,20,None,None,15,7,None,None,None,None,None,None,None,None]))
+    print(s.isBalanced([1,2,2,3,3,None,None,4,4,None,None,None,None,None,None]))
